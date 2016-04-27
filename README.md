@@ -6,7 +6,7 @@ for the rule engine and a test stored procedure to demonstrate the usage.
 Rules
 -----
 Rules can be written in simple Javascript code and saved in a table. Each rule is identified by an identifier that
-the stored procedure code can use to look it up.
+the stored procedure code can use to look it up. The dynamic rules are simple IFTTT scenarios but we should also be able to compose higher order rules by representing them declaratively as arrays of Action/Rule objects. 
 
 Use Case
 -----
